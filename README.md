@@ -11,6 +11,9 @@ __________                     __ .__                  .____         .___
 
 This server drives multiplayer "matchmaking" in Ryujinx's local wireless implementation. Players can create "networks" on the server, which can then be scanned and found by other players as if they were within that network's range. The server entirely manages the network information and player join/leave lifecycle for all games created.
 
+This server is intended for *Ryujinx-to-Ryujinx gameplay.* Any other methods are unsupported and unofficial, and detection of such methods may result in being added to the IP Ban list. 
+> We run this server for Ryujinx users. This is not meant to be your NSO replacement.
+
 ## License
 
 This software is licensed under the terms of the [MIT license](LICENSE.txt).
